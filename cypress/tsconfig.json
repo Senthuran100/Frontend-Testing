@@ -1,12 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext",
-      "es5", 
-    ],
+    "lib": ["es5", "dom", "dom.iterable", "esnext"],
+    "types": ["node"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -20,10 +16,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "noImplicitAny": false,
-    "types": ["cypress", "node"]
+    "baseUrl": "src"
   },
-  "include": [
-    "src","**/*.ts"
-  ]
+  "include": ["src", "**/*.ts"]
 }

@@ -22,6 +22,7 @@ export const AddTodo:React.FC<Props>= ({saveTodo}) => {
     return (
         <form onSubmit={addNewTodo} className="Add-todo">
           <input
+            className="title-input"
             type="text"
             id="title"
             placeholder="Title"
@@ -29,11 +30,12 @@ export const AddTodo:React.FC<Props>= ({saveTodo}) => {
           />
           <input
             type="text"
+            className="description-input"
             id="body"
             placeholder="Description"
             onChange={handleTodoData}
           />
-          <button disabled={todo === undefined ? true : false}>
+          <button className="add-button" disabled={todo === undefined ? true : false}>
             Add Todo
           </button>
         </form>
