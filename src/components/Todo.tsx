@@ -21,7 +21,7 @@ export const Todo: React.FC<Props> = ({todo, removeTodo}) =>{
             <h1 className="todo-title">{todo.title}</h1>
             <p className="todo-description">{todo.body}</p>
           </div>
-          <button onClick={() => deleteTodo(todo)}>Delete Todo</button>
+          <button onClick={() => deleteTodo(todo)} className="delete-btn">Delete Todo</button>
         </div>
       )
 }

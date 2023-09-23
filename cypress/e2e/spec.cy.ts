@@ -15,8 +15,10 @@ describe('template spec', () => {
     cy.get('.todo-title').last().contains('Sample Title');
     cy.get('.todo-description').last().contains('Sample Description');
   })
-  it('Checks for the delete button functionality',()=>{
-
+  it('Checks for the delete button functionality',() => {
+    cy.visit('http://localhost:3000/React-TypeScript')
+    cy.get('.delete-btn').last().click({force: true});
+    cy.get('.delete-btn').should('have.length',1);
   })
 })
 
