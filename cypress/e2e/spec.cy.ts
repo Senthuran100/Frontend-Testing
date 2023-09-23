@@ -13,5 +13,8 @@ describe('template spec', () => {
     cy.get('.description-input').type('Sample Description',{force: true});
     cy.get('.add-button').click({force: true})
   })
+  it('Checks for the delete button functionality',()=>{
+    
+  })
 })
 
