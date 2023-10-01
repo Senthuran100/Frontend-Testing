@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
-import {AddTodo} from '../../React-TypeScript/src/components/AddTodo';
+import {AddTodo} from './AddTodo';
 const mockStore = configureStore([]);
 
 test('renders learn react link', () => {
