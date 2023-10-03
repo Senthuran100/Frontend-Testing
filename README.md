@@ -1,6 +1,6 @@
 # Frontend Testing with Cypress & React Testing Library.
 
-A Todo Application done in React using Typescript..
+A Todo Application done in React using Typescript. This is cloned from my exsisting [repo](https://github.com/Senthuran100/React-TypeScript) in github
 
 Used Cypress for End to End testing and component testing using React testing library.
 
