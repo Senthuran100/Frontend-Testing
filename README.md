@@ -8,3 +8,4 @@ cypress/e2e/spec.cy.ts has the end to end testing and it test the basic flow lik
 
 This [documentation](https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test) is a good point to start using cypress for end to end testing.
 
+Component specific test cases are written using RTL. Added 3 component test for the main 3 components. 
