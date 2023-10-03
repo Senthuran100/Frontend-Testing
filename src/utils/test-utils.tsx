@@ -29,6 +29,5 @@ export function renderWithProviders(
     return <Provider store={mockStoreValues}>{children}</Provider>
   }
 
-  // Return an object with the store and all of RTL's query functions
   return { ...render(ui, { wrapper: Wrapper }) }
 }

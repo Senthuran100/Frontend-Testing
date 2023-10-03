@@ -1,20 +1,10 @@
-# React Typescript
+# Frontend Testing with Cypress & React Testing Library.
 
 A Todo Application done in React using Typescript..
 
-Created a project using create-react-app with Typescript template.
+Used Cypress for End to End testing and component testing using React testing library.
 
-`npx create-react-app React-Typescript --template typescript`
+cypress/e2e/spec.cy.ts has the end to end testing and it test the basic flow like add todo item and delete todo.
 
- The `store` folder contains following files which are related to redux.
-* actionCreators.tx
-* actionTypes.ts
-* reducers.ts
+This documentation[https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test] is a good point to start using cypress for end to end testing.
 
-`type.d.ts` contains the Typescript types.
-
-`components` folder has the component files which are related to add Todo and display Todo list
-
-You can access this Todo Application in github pages(https://senthuran100.github.io/React-TypeScript/).
-
-!! :smiley:	  Hope this will be a simple example to start using <b>Typescript</b>  in React Application. !!
