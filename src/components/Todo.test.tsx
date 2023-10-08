@@ -15,5 +15,6 @@ test('renders learn react link', () => {
   renderWithProviders( <Todo removeTodo={()=>{}} todo={obj}/>)
   const dataElement = screen.getByText('Delete Todo');
   expect(dataElement).toBeInTheDocument();
-  
+  expect(screen.getByTestId('todo-title').textContent).toEqual('Todo 1')
+  expect(screen.getByTestId('todo-description').textContent).toEqual('Todo List 1')
 });
